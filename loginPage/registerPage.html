@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册当当网</title>
+    <link rel="stylesheet" type="text/css" href="css/registerPage.css" />
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/registerPage.js" language="JavaScript"></script>
+</head>
+<body>
+<div id="body">
+<div id="header">
+    <img src="../images/logo.gif"/>
+    <div id="headerRight">
+        <ol>
+            <li><a href="../indexPage/index.html">首页</a>|</li>
+            <li><a href="../informationPage/productPage.html">商品展示页</a>|</li>
+            <li><a href="../shopPage/shoppingCart.html">购物车</a>|</li>
+            <li><a href="registerPage.html">注册</a></li>
+        </ol>
+    </div>
+</div>
+    <div id="center">
+        <div id="centerTop">
+            <div id="centerTop1"></div>
+            <div id="centerTop2">
+                <div class="longinTop" style="background-image: url(../images/register_tag_left.gif)">填写注册信息</div>
+                <div class="longinTop" style="background-image: url(../images/register_tag_mid.gif)">2.邮箱验证</div>
+                <div class="longinTop" style="background-image: url(../images/register_tag_right.gif)">3.完成注册</div>
+            </div>
+        </div>
+        <img src="../images/register_cont.gif" style="float:left;" />
+        <div id="centerBottom0">
+        <div id="centerMiddle">
+            <img src="../images/register_pic_01.gif">
+            <div id="centerMiddleRight">
+            <img src="../images/register_pic_02.gif" /><br /><br />
+            <p>您所提供的资料不会被用作其它用途，敬请安心填写。</p>
+            </div>
+        </div>
+            <div id="centerBottom">
+                <form method="post" name="login" action="" id="form2">
+            <ol>
+                <li style="margin:15px 0 0 100px;">Email地址：<input type="text" class="inputsize" value="请输入您的邮箱地址"></li>
+                <li style="margin:0 0 0 108px;">设置昵称：<input type="text" class="inputsize"></li>
+                <li style="margin:0 0 0 108px;">设定密码：<input type="password" class="inputsize"></li>
+                <li style="margin:0 0 0 60px;">再输入一次密码：<input type="password" class="inputsize"></li>
+                <li style="margin:0 0 0 141px;">性别：<input type="radio" name="sex" id="man" /><label for="man">男</label>
+                    <input type="radio" name="sex" id="woman" /><label for="woman">女</label>
+                </li>
+                <li style="margin:0 0 0 108px;">
+                    所在地区：<select id="province" onchange="showCity()">
+                <option>请选择省/城市</option>
+                    <option>江苏省</option>
+                    <option>江西省</option>
+                    <option>福建省</option>
+                </select>
+                    <select id="city">
+                        <option>请选择城市/地区</option>
+                    </select>
+                </li>
+                <li id="centerBottomImg" onclick="return document.getElementById('form2').submit();"></li>
+            </ol>
+                    </form>
+        </div>
+        </div>
+       <img src="../images/register_cont.gif" style="float:right;" />
+    </div>
+    <div id="footer">
+        <p>Copyright(C)当当网2004-2009，All&nbspRight&nbspReserved<img src="../images/validate.gif"/>音像制品经营许可证</p>
+    </div>
+    </div>
+ </body>
+</html>

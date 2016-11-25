@@ -1,0 +1,66 @@
+*{margin: 0;padding: 0;font-size: 13px;vertical-align: top}
+ul{list-style: none;float: right}
+#container{width:965px;margin: 0 auto}
+#main{width:965px;margin:0 auto;position: relative}
+#Recommend a{text-decoration: none;color: #3363B1;}
+#iconcart{  width: 965px;height: 30px;border: solid 1px #9CA293;  background:url(../../images/dd_header_shop.gif) 5px 6px no-repeat;
+}
+
+#Recommend{
+    width: 965px;height: 190px;border: solid 1px #9CA293;
+}
+.discount{
+    text-decoration: line-through;color: #91A0B2;
+}
+.buy{text-decoration: none;color:#E8796F;}
+
+#top1{
+    background-color: #FEFCEE;border: solid 1px #9CA293;
+    text-indent: 5px;width:965px;position: relative;
+}
+#arrowUp{
+    position: absolute;right: 10px;
+}
+#lefttable{
+    line-height: 40px;vertical-align: middle;border-right: solid 1px;width: 50%;float: left;
+}
+#righttable{
+    line-height: 40px;vertical-align: middle;width: 50%;float: right;
+}
+#myShopping{
+    width: 965px;height: 260px;border: solid 2px #9CA293;  tab-index: 10px;
+}
+.discount1{
+    color: #91A0B2;
+}
+#table3{
+    background-color: #FEFAEF;line-height: 30px;vertical-align:middle;text-align: center;width:100%;
+}
+#table3 tr td{ border-bottom: dashed 1px grey}
+#table3 tr td .del-{color: blue;}
+#table3 input{width: 30px}
+#count{height:60px;width:100%;background-color:#C2D4A9;position: relative }
+#jiesheng{
+    position:absolute;float: right;right: 450px;bottom: 35px;
+}
+#jifen{
+    position:absolute;float: right;right: 450px;bottom: 8px;
+}
+#totle{
+    position:absolute;float: right;right: 180px;bottom: 20px;
+}
+#shixian{
+    width: 1px;height:38px;background-color: black;
+    position:absolute;float: right; right: 350px;bottom: 10px;
+}
+#jiesuan{
+    position:absolute;float: right;right: 15px;bottom: 17px;
+}
+#bottom{float: right;width: 360px;padding-top: 30px;padding-bottom: 3px}
+#bottom img,#bottom a{float: left}
+#bottom div{background-color: #FECC66;margin-left: 5px;float: left;width: 15px;line-height: 15px;}
+#footer {text-align: center;height: 30px;padding-top: 30px;clear: both}
+#footer a {color: #9c2f06;padding-left: 10px }
+#alert{text-align: center;line-height: 48px}
+#alert img {text-align: center;line-height: 48px}
+#slide{border: solid 1px #d1d1d1;position: absolute;top: 16px;left: 870px;background: white;;width: 85px;height: 62px;padding-left: 1px;border-top: none;display: none}

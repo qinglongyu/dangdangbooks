@@ -1,0 +1,43 @@
+*{margin: 0;padding: 0;font-size: 13px;vertical-align: top}
+a{text-decoration: none;color: black}
+ul{list-style: none;float: right}
+#container{width:965px;margin: 0 auto;position: relative;}
+#left{width:19%;height: 700px;float: left;text-indent: 10px;}
+#lefttop{border: solid 1px;}
+#lefttop a{font-size: 10px;}
+#leftbottom{line-height: 22px;letter-spacing: 1px;border: solid 1px;margin-top: 8px;}
+#leftbottom a{font-size: 12px;}
+h2{background: #FEEDD0}
+
+#add{margin-bottom: 10px}
+#left{  width: 200px;height: 1px ;float: left;  }
+#leftTop{  background-color:red;  text-align: center;  width: 200px; line-height: 20px; }
+#booklist {  width: 200px;  background-color: #FFF4D7;float: left;}
+#booklist li{  margin-left: 5px;  font-size: 15px;line-height: 30px;color: #0000cc;}
+#booklist li a {color: #0000cc;}
+
+#right{  margin-left: 10px ;  width: 753px;  border: 1px solid gray;  float: left;  }
+#rightTop{  width: 753px; height: 30px; background-color: #F9D7A9;  line-height: 30px;vertical-align:middle;  }
+.icon{  margin-top: 7px;}
+.arrow{ margin-top: 11px;}
+select{margin-top: 5px;}
+
+.book{width: 95%;margin:0 auto;border-bottom: 1px solid;padding: 10px}
+dt{border-bottom: 1px dashed black}
+.ph1{float: left;height: 150px}
+.mess{float: right;}
+/*.mess span{margin-bottom: 5px}*/
+.mess img {vertical-align: middle}
+dt{  line-height: 20px; }
+dd{line-height: 18px;  height: 130px;}
+dt,.name,.pub{color: #0000cc}
+.adv{margin-top: 10px}
+
+#bottom{float: right;width: 360px;padding-top: 30px;padding-bottom: 3px}
+#bottom img,#bottom a{float: left}
+#bottom div{background-color: #FECC66;margin-left: 5px;float: left;width: 15px;line-height: 15px;}
+#footer {text-align: center;padding-top: 30px;clear: both}
+#footer a {color: #9c2f06;padding-left: 10px }
+#alert{text-align: center;line-height: 48px}
+#alert img {text-align: center;line-height: 48px}
+#slide{border: solid 1px #d1d1d1;position: absolute;top: 16px;left: 870px;background: white;;width: 85px;height: 62px;padding-left: 1px;border-top: none;display: none}

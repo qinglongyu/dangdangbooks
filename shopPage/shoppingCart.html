@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车页面</title>
+    <link rel="stylesheet" href="css/shopcss.css">
+    <script src="js/jquery-1.8.3.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div id="main">
+    <iframe src="../indexPage/iframe.html" frameborder="0" height="243px" width="100%" scrolling="no"></iframe>
+    <div id="iconcart">
+        <p style="text-indent:25px;line-height:30px"><span style="font-weight: bold;font-size: 25px">我的购物车</span>全场免运费活动中</p>
+    </div>
+    <div id="top1">
+        根据您选的商品，当当为您推荐
+        <div style="float: right"><img id="arrowUp" src="../images/shopping_arrow_up.gif"></div>
+    </div>
+    <div id="Recommend">
+
+        <div id="landr">
+            <div id="left">
+                <table id="lefttable">
+                <tr>
+                    <td><img src="../images/shopping_dotted.gif"> <a href="#">·JavaScript DOM编程艺术</a></td>
+                    <td class="discount">$39</td>
+                    <td>$29</td>
+                    <td><a class="buy" href="#">购买</a></td>
+                </tr>
+                <tr>
+                    <td><img src="../images/shopping_dotted.gif"> <a href="#">·解禁 （当当网独家首发）</a></td>
+                    <td class="discount">$39</td>
+                    <td>$29</td>
+                    <td><a class="buy" href="#">购买</a></td>
+                </tr>
+                <tr>
+                    <td><img src="../images/shopping_dotted.gif"> <a href="#">·地王之王（金融围巾下房地产行...</a></td>
+                    <td class="discount">$39</td>
+                    <td>$29</td>
+                    <td><a class="buy" href="#">购买</a></td>
+                </tr>
+                <tr>
+                    <td><img src="../images/shopping_dotted.gif"> <a href="#">·逃庄</a></td>
+                    <td class="discount">$39</td>
+                    <td>$29</td>
+                    <td><a class="buy" href="#">购买</a></td>
+                </tr>
+            </table>
+            </div>
+            <div id="right">
+                <table id="righttable">
+                    <tr>
+                        <td><img src="../images/shopping_dotted.gif"> <a href="#">·深入浅出MySQL数据库开发、优...</a></td>
+                        <td class="discount">$39</td>
+                        <td>$29</td>
+                        <td><a class="buy" href="#">购买</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/shopping_dotted.gif"> <a href="#">·大玩家（马末都、王刚推荐！央...</a></td>
+                        <td class="discount">$39</td>
+                        <td>$29</td>
+                        <td><a class="buy" href="#">购买</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/shopping_dotted.gif"> <a href="#">·都市风水师--官场风水小说：一...</a></td>
+                        <td class="discount">$39</td>
+                        <td>$29</td>
+                        <td><a class="buy" href="#">购买</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/shopping_dotted.gif"> <a href="#">·国戏（以麻将术语解读宦海沉浮...</a></td>
+                        <td class="discount">$39</td>
+                        <td>$29</td>
+                        <td><a class="buy" href="#">购买</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+    </div>
+    <p style="margin-top: 10px">你已经选购以下商品</p>
+    <div id="myShopping">
+        <table id="table3">
+        <tr style="background: #C2D4A9;border-right:#C2D4A9 1px solid ">
+            <td>商品名</td>
+            <td>单品积分</td>
+            <td>市场价</td>
+            <td>当当价</td>
+            <td>数量</td>
+            <td>删除</td>
+        </tr>
+        <tr>
+            <td><a href="#">鬼吹灯</a></td>
+            <td>100</td>
+            <td class="discount1">￥90</td>
+            <td>￥45（5折）</td>
+            <td><input type="text" value="1"></td>
+            <td class="delRow"><span class="del-">删除</span></td>
+        </tr>
+            <tr>
+                <td><a href="#">幻城</a></td>
+                <td>90</td>
+                <td class="discount1">￥80</td>
+                <td>￥32（4折）</td>
+                <td><input type="text" value="1"></td>
+                <td class="delRow"><span class="del-">删除</span></td>
+            </tr>
+            <tr>
+                <td><a href="#">格列佛游记</a></td>
+                <td>80</td>
+                <td class="discount1">￥120</td>
+                <td>￥60（5折）</td>
+                <td><input type="text" value="1"></td>
+                <td class="delRow"><span class="del-">删除</span></td>
+            </tr>
+            <tr>
+                <td><a href="#">西游记</a></td>
+                <td>50</td>
+                <td class="discount1">￥100</td>
+                <td>￥60（6折）</td>
+                <td><input type="text" value="1"></td>
+                <td class="delRow"><span class="del-">删除</span></td>
+            </tr>
+            <tr>
+                <td><a href="#">名侦探柯南</a></td>
+                <td>20</td>
+                <td class="discount1">￥50</td>
+                <td>￥35（7折）</td>
+                <td><input type="text" value="1"></td>
+                <td class="delRow"><span class="del-">删除</span></td>
+            </tr>
+        </table>
+    <div id="count">
+        <div id="jiesheng">您共节省金额：<span style="color:red;">￥208</span></div>
+        <div id="jifen">可得商品积分：<span style="color:red;">340</span></div>
+        <div id="totle">商品金额总计：<span style="color:red;">￥232</span></div>
+        <div id="shixian"></div>
+        <div id="jiesuan">
+            <input id="countButton" type="button" style="background-image: url('../images/shopping_balance.gif');width: 98px;height: 34px;float: right">
+        </div>
+    </div>
+    </div>
+    <div id="footer"><a href="">公司简介</a>&nbsp;|<a href="">诚聘英才</a>&nbsp;|<a href="">网站联盟</a>&nbsp;|<a href="">百货招商</a>&nbsp;|<a href="">交易条款</a></div>
+    <div id="alert">Copyright(C)当当网2004-2009，All Rights Reserved<img src="../images/validate.gif">京ICP证041189号音像制品经营许可证京音网8号</div>
+    <div id="slide">
+        <ul>
+            <li><a href="#">我的订单</a></li>
+            <li><a href="#">账户余额</a></li>
+            <li><a href="#">购物积分</a></li>
+            <li><a href="#">我的会员积分</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

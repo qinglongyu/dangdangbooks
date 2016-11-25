@@ -1,0 +1,130 @@
+body,div img,ol,ul,li,a,p,form.table,dl,dd,dt,h1{
+    margin:0;
+    padding:0;
+}
+body{
+    padding:10px 0 0 0;
+}
+#body{
+    width:950px;
+    height:680px;
+    margin:0 auto;
+}
+#header{
+    width:950px;
+    height:45px;
+    background-color: #F7F5DD;
+    border:1px solid black;
+    margin:0 0 15px 0;
+}
+#header img{
+    margin:5px  0 0 40px;
+}
+#headerRight{
+    width:275px;
+    height:20px;
+    float:right;
+    margin:18px 0 0 0;
+}
+.longinTop{text-align: center;width: 313px;height: 32px;float: left;line-height: 32px;font-weight: bold;color:black;}
+ol{
+    list-style: none;
+}
+#headerRight li{
+    display:inline-block;
+}
+#headerRight li a{
+    font-size: 15px;
+    color: #0066CC;
+    text-decoration: none;
+}
+#headerRight li a:hover{
+    font-size: 17px;
+    color:#00D2DB;
+    text-decoration: underline;
+}
+#center{
+    width:952px;
+    height:487px;
+
+}
+#centerTop{
+    width:950px;
+    height:37px;
+}
+#centerTop1{
+    width:950px;
+    height:5px;
+    background: url("../../images/register_top_bg.gif");
+}
+#centerTop2{
+    width:950px;
+    height:32px;
+    border-left:1px solid black;
+    border-right:1px solid black;
+}
+#centerTop2 img{
+    float:left;
+}
+#centerMiddle{
+    width:70%;
+    height:80px;
+    margin:0 auto;
+}
+#centerMiddleRight{
+    display:inline-block;
+    margin: 0 0 10px 10px;
+ }
+#centerMiddleRight p {
+    color: red;
+  font-size:15px;
+    position: relative;
+    bottom: 5px;
+}
+
+#centerMiddle img{
+margin:22px 0 0 0;
+}
+#centerBottom0{
+    width:948px;
+    height:450px;
+    float:left;
+    /*border:1px solid pink;*/
+}
+#centerBottom{
+    width:90%;
+    height:370px;
+    border-top:1px dashed;
+    margin:0 auto;
+}
+#centerBottom span{
+    font-size: 14px;
+    color:red;
+}
+#centerBottomImg{
+    width: 143px;
+    height: 31px;
+    background: url("../../images/register_btn_out.gif");
+    margin:10px 0 0 190px;
+    cursor: pointer;
+}
+#centerBottomImg:hover{
+    background: url("../../images/register_btn_over.gif");
+}
+#centerBottom li{
+    line-height: 40px;
+}
+#centerBottom li .inputsize{
+    width:280px;
+    height:25px;
+}
+#footer{
+    width:600px;
+    height:48px;
+    margin:0 auto;
+
+}
+#footer img{
+    vertical-align:middle;
+}
+

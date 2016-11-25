@@ -1,0 +1,15 @@
+*{margin:0;padding: 0;}
+ul{list-style: none}
+#container{width: 965px;height: 700px;background: gray;margin: 0 auto;}
+#top{height: 90px;background: pink;position: relative;}
+#logo1{background: url("../images/logo.gif");width: 87px;height: 40px;position: absolute;top:45px;left: 125px;}
+#logo2{background: url("../images/login_header.gif");width: 135px;height: 21px;position: absolute;top:69px;left: 240px;}
+#topNav {position: absolute;left: 655px;top: 70px;}
+#topNav,li{float: right;}
+
+#main{position: relative}
+.images{float: left}
+#kuang{float: left;width: 317px;height:317px;background: burlywood}
+#masage{width: 535px;height: 135px;background: yellowgreen;position: absolute;top:250px;left: 40px;display: flex;flex-direction: row}
+.text{flex: 1;background: orange;border-right: dashed 1px;font-size: 14px;line-height: 30px;}
+h2{font-size: 14px;}
